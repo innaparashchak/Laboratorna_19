@@ -1,0 +1,8 @@
+with open('text19.txt') as f:
+    r = f.readlines()
+    print(r)
+    for el in r:
+        el=int(el)
+        if el > min(el):
+            print(el)
+            print(len(el))
